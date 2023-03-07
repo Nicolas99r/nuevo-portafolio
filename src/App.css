@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 10px;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: "League Spartan", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: #33425b;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='800' preserveAspectRatio='none' viewBox='0 0 1440 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1031%26quot%3b)' fill='none'%3e%3cpath d='M218.1990295020937 103.65684621719507L104.60018697656302-64.76036377938195-63.817023020014005 48.83847874614874 49.781819505516694 217.25568874272574z' fill='rgba(24%2c 30%2c 41%2c 0.45)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M470.81%2c574.545C553.566%2c574.374%2c606.257%2c495.585%2c645.983%2c422.987C683.627%2c354.193%2c708.912%2c274.834%2c672.946%2c205.148C634.297%2c130.262%2c555.072%2c84.799%2c470.81%2c83.575C384.38%2c82.319%2c298.041%2c122.392%2c258.24%2c199.123C220.819%2c271.266%2c254.331%2c352.994%2c294.375%2c423.715C335.235%2c495.878%2c387.882%2c574.717%2c470.81%2c574.545' fill='rgba(24%2c 30%2c 41%2c 0.45)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M311.898734448138 579.5743640615551L110.52178974163166 476.9676857921578 209.29205617874064 780.9513087680614z' fill='rgba(24%2c 30%2c 41%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1022.6163764927878 457.6899997386894L867.5448716169759 487.83284679490095 1052.7592235489994 612.7615046145013z' fill='rgba(24%2c 30%2c 41%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M980.442%2c174.473C1007.675%2c174.757%2c1034.668%2c160.928%2c1046.474%2c136.386C1057.182%2c114.127%2c1043.901%2c90.143%2c1031.202%2c68.956C1019.014%2c48.622%2c1004.133%2c27.09%2c980.442%2c26.215C955.631%2c25.299%2c935.285%2c43.522%2c922.744%2c64.95C910.051%2c86.638%2c905.041%2c112.8%2c916.753%2c135.033C929.227%2c158.711%2c953.68%2c174.194%2c980.442%2c174.473' fill='rgba(24%2c 30%2c 41%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M129.45724631726023 577.3008313080009L267.39597270002696 480.715095283741 170.81023667576704 342.77636890097426 32.87151029300034 439.3621049252341z' fill='rgba(24%2c 30%2c 41%2c 0.45)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1031'%3e%3crect width='1440' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a,
+li {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+img,
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: default;
+}
+
+button {
+  outline: none;
+}
+
+h2,
+p,
+span,
+div {
+  cursor: default;
+}
+
+p {
+  margin: 0;
 }
