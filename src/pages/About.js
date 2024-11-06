@@ -35,6 +35,7 @@ const AboutPageStyles = styled.div`
   }
   .about__info {
     margin-bottom: 4rem;
+    margin-right: 1rem;
     .para {
       max-width: 100%;
     }
@@ -85,10 +86,9 @@ export default function About() {
             <h2 className="about__heading">Multimedia Engineer</h2>
             <div className="about__info">
               <PText>
-              I am a tenth-semester student of Multimedia Engineering with experience in web development, design, image processing, programming, animation, render, modeling, and many other related areas. My goal has always been to learn as much as I can and bring my ideas to life, contributing to the development of a better world for everyone.
-              <br />
-              <br />
-              Apart from my work, I enjoy spending my free time watching movies and series, playing the guitar with my band, and hanging out with friends and family.
+              I specialize in creating dynamic, visually engaging web experiences that merge form and function. With expertise in front-end development, I leverage technologies like React, TypeScript, and Astro to build responsive, intuitive applications tailored to user needs.
+              <br/><br/>
+              My background in multimedia fuels my commitment to a seamless user experience, combining my design sensibilities with solid technical skills. From API integrations to UX/UI enhancements, I thrive in fast-paced, collaborative settings, always aiming to make a tangible impact through innovative, efficient code.
               </PText>
             </div>
             <Button btnText="Download CV" btnLink="#"></Button>
@@ -101,15 +101,17 @@ export default function About() {
           <div className="about__info__item">
             <h1 className="about__info__heading">My Education</h1>
             <AboutInfoItem
-              title="School"
+              title="College"
               items={[
-                'Technical bachelor degree at "Augusto E. Medina" of Comfenalco Educational Institute',
+                "Multimedia Engineering at 'Universidad Militar Nueva granada'",
               ]}
             />
             <AboutInfoItem
-              title="College"
+              title="Other"
               items={[
-                "Multimedia Engineering at Militar University of New Granada",
+                'Javascript School at Platzi',
+                'Frontend (UX) at Colsubsidio',
+                'React - The Complete Guide 2024 at Udemy'
               ]}
             />
           </div>
@@ -117,36 +119,33 @@ export default function About() {
             <h1 className="about__info__heading">My skills</h1>
             <AboutInfoItem
               title="Languages"
-              items={["Javascript", "C# (Unity)"]}
+              items={["Javascript", "Typescript", "SQL"]}
             />
             <AboutInfoItem
               title="FrontEnd"
-              items={["HTML", "CSS", "Javascript", "ReactJS"]}
+              items={["HTML", "CSS", "React", "Tailwind", "Three JS", "Astro", "React Native"]}
             />
-            <AboutInfoItem title="BackEnd" items={["MySQL", "PHP"]} />
+            <AboutInfoItem title="BackEnd" items={["Node JS", "Nest JS", "Mongo DB"]} />
             <AboutInfoItem
               title="Design"
               items={[
-                "Photoshop",
-                "Ilustrator",
-                "After Effects",
-                "Premiere Pro",
-                "Adobe XD",
+                "UI/UX Design",
+                "Adobe Suite",
+                "Figma",
+                "Canva"
               ]}
             />
-            <AboutInfoItem title="3D" items={["Autodesk Maya"]} />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">My Experience</h1>
             <AboutInfoItem
-              title="2019-2020"
-              items={["Junior FrontEnd at Ciento3"]}
+              title="2024 - Cur."
+              items={["Fullstack Developer at FitLegends (Personal Project)"]}
             />
             <AboutInfoItem
-              title="2020-2021"
-              items={["Web E-commerce Dev at Bylinch"]}
+              title="2023 - Cur."
+              items={["eLearning Developer at egroup Colombia"]}
             />
-            <AboutInfoItem title="2021-2022" items={["Educational Videogame 'Cajicarros' Development"]} />
             <AboutInfoItem title="∞" items={["Always learning"]} />
           </div>
         </div>

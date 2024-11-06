@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### By Nicolás Reyes
 
-## Available Scripts
+Welcome to the repository for my personal portfolio website! This portfolio showcases my skills, projects, and professional journey as a Frontend Developer and Multimedia Engineer. Created to highlight both my technical and creative expertise, the site is fully responsive and integrates interactive elements designed to provide an engaging and intuitive experience.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Contact Information](#contact-information)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Overview
 
-### `npm test`
+This portfolio was designed as a professional tool to showcase my development projects, creative skills, and technical expertise. It's crafted to provide potential clients, collaborators, and employers with an overview of my skills, relevant experiences, and the type of work I produce. With interactive elements, animations, and an organized structure, the site allows for easy navigation and a memorable user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design**: Fully optimized for viewing across a range of devices from mobile to desktop.
+- **Interactive Animations**: Animations and transitions using CSS and JavaScript for smooth navigation and enhanced user engagement.
+- **Projects Showcase**: Dedicated sections for selected projects, each with a description, technology stack, and preview links.
+- **Skills Overview**: Skills section organized by categories (languages, frameworks, tools) for easy viewing.
+- **Contact Form**: Functional contact form allowing users to reach out directly.
+- **Accessible and Optimized**: WCAG-compliant design with performance optimizations to ensure fast loading times and accessibility.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+### Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **HTML5**: Semantic markup for accessibility and SEO.
+- **CSS3**: Styled using Flexbox, Grid, and custom animations for a polished look.
+- **JavaScript (ES6)**: Adds interactivity and handles dynamic content.
+- **React, React Native**: For dynamic UI components and state management.
+- **Astro**: For building optimized, server-rendered static pages.
+- **Tailwind CSS**: For rapid and responsive styling with utility-first classes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **MongoDB**: Database for managing structured data.
+- **SQL**: Structured data management with relational capabilities.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Netlify**: For easy, continuous deployment and custom domain support.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact information
+
+If you'd like to connect, please feel free to reach out through any of the following platforms:
+
+- **Email:** [nicolas.arp23@gmail.com](mailto:nicolas.arp23@gmail.com)
+- **LinkedIn:** [linkedin.com/nico-reyes](https://www.linkedin.com/in/nico-reyes/)
+- **GitHub:** [github.com/Nicolas99r](https://github.com/Nicolas99r)

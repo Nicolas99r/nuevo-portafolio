@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import SectionTitle from './SectionTitle'
 import ServicesSectionItem from './ServicesSectionItem'
-import {MdMovieFilter, MdCreate, MdDevices} from 'react-icons/md'
+import {MdDesignServices , MdDevices, MdSettings } from 'react-icons/md'
 
-import motionImg from '../assets/motion.jpg'
-import dImg from '../assets/3d.jpg'
+import design from '../assets/uiux.jpg'
+import api from '../assets/api.jpg'
 
 const ServicesItemsStyles = styled.div`
     padding: 10rem 0;
@@ -37,20 +37,20 @@ export default function ServicesSection() {
             <div className='services__allItems'>
                 <ServicesSectionItem
                     icon={<MdDevices/>}
-                    title="Web Dev / Web Design"
-                    descp='I will design and develop your ideas to create the perfect website for you.'
+                    title="Front-End Development"
+                    descp='Modern frameworks like React and Astro to build responsive, interactive web apps.'
                 />
                 <ServicesSectionItem
-                    icon={<MdMovieFilter/>}
-                    title="Motion Design"
-                    descp='I will create, edit, and add cool FX to your videos to improve your ideas.'
-                    img={motionImg}
+                    icon={<MdDesignServices />}
+                    title="UX/UI Design"
+                    descp='Design focused on accessibility, aesthetics, and seamless navigation.'
+                    img={design}
                 />
                 <ServicesSectionItem
-                    icon={<MdCreate/>}
-                    title="3D Projects"
-                    descp='Creation of 3D models and animations to get into your videogames, apps or websites'
-                    img={dImg}
+                    icon={<MdSettings />}
+                    title="API Integration"
+                    descp='Experience integrating APIs to enhance application functionality.'
+                    img={api}
                 />
             </div>
         </div>

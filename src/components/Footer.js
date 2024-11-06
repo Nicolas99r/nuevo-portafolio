@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
         <div className='copyright'>
             <div className='container'>
-                <PText className='copy__text'>© 2022 - Nicolas Reyes | Ing Multimedia</PText>
+                <PText className='copy__text'>2022 - Nicolas Reyes</PText>
             </div>
         </div>
     </FooterStyles>

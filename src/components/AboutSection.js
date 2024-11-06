@@ -151,10 +151,7 @@ export default function AboutSection() {
                   heading='About me'
                 />
                 <PText>
-                I'm a Multimedia Engineering student based in Bogotá, Colombia, with a strong passion for web development, as well as animation and modeling.
-                </PText>
-                <PText>
-                I have been acquiring knowledge and skills in these areas since 2019, and I'm eager to help you bring your ideas to life with innovative and useful products.
+                Hi, I’m Nicolás, a passionate front-end developer focused on building clean, responsive, and impactful web experiences. With a foundation in React, TypeScript, and UX/UI design, I love merging creativity with code to bring ideas to life. Every project I tackle is driven by the goal of creating smooth, user-centered applications.
                 </PText>
                 <div className='aboutSection__buttons'>
                   <Button btnLink='/projects' btnText='Works'/>
