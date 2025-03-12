@@ -12,8 +12,26 @@ import personajeImg from '../Data/img/modelado-personaje.jpg'
 import contraImg from '../Data/img/contra.png'
 import julyImg from '../Data/img/ijuly.png'
 import cajiImg from '../Data/img/cajicarros.png'
+import snkImg from '../Data/img/snk.png'
+import fitImg from '../Data/img/fitleg.png'
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'FitLegends Fitness App',
+    desc:
+      '(In Process) A mythology-inspired fitness app that gamifies workouts with legendary quests.',
+    img: fitImg,
+    link: 'https://github.com/Nicolas99r/fitlegends_front'
+  },
+  {
+    id: uuidv4(),
+    name: 'Attack on Titan Wiki',
+    desc:
+      'https://github.com/Nicolas99r/Attack-on-Titan-Wiki',
+    img: snkImg,
+    link: 'https://cajicarros.netlify.app/'
+  },
   {
     id: uuidv4(),
     name: 'Cajicarros',

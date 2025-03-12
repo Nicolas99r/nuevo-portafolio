@@ -91,7 +91,11 @@ export default function About() {
               My background in multimedia fuels my commitment to a seamless user experience, combining my design sensibilities with solid technical skills. From API integrations to UX/UI enhancements, I thrive in fast-paced, collaborative settings, always aiming to make a tangible impact through innovative, efficient code.
               </PText>
             </div>
-            <Button btnText="Download CV" btnLink="#"></Button>
+            <Button btnText="Download CV" btnLink="#">
+              <a href="../assets/Nicolas Reyes CV.pdf" download>
+                Download CV
+              </a>
+            </Button>
           </div>
           <div className="right">
             <img src={aboutImg} alt="Nicolas photography" />
