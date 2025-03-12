@@ -28,9 +28,9 @@ const projects = [
     id: uuidv4(),
     name: 'Attack on Titan Wiki',
     desc:
-      'https://github.com/Nicolas99r/Attack-on-Titan-Wiki',
+      'A comprehensive Attack on Titan wiki, covering lore, characters, and events.',
     img: snkImg,
-    link: 'https://cajicarros.netlify.app/'
+    link: 'https://github.com/Nicolas99r/Attack-on-Titan-Wiki'
   },
   {
     id: uuidv4(),
